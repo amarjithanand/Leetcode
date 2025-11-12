@@ -12,11 +12,6 @@ Each solution is focused on writing clean, optimized, and easy-to-understand cod
 
 ---
 
-## 📊 LeetCode Submissions Stats
-[![LeetCode Stats](https://leetcode-badge.vercel.app/?username=amarjithanand)](https://leetcode.com/amarjithanand)
-
----
-
 ## 🎯 Purpose
 - Improve problem-solving and algorithmic thinking  
 - Prepare for coding interviews and placements  
