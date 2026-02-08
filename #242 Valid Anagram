@@ -1,0 +1,21 @@
+class Solution {
+public:
+    bool isAnagram(string s, string t) {
+        unordered_map<char, int> s1;
+        if(s.size()!= t.size()){
+            return false;
+        }
+        for(auto x: s){
+            s1[x]++;
+        }
+        for(auto x: t){
+            s1[x]--;
+        }
+        for(auto x: s1){
+            if(x.second != 0){
+                return false;
+            }
+            return true;
+        }
+    }
+};
